@@ -15,24 +15,8 @@ import LinkPages from './LinkPages';
 
 function App() {
   return (
+    
     <Provider store={store}>    
-    {/* <div className="App">
-        <Register/>
-      <hr />
-          <CustomerAdd/>
-          <h1>hi</h1> 
-         
-      
-          <hr />
-          <ProductAdd/>
-          <hr />
-          <ProductView/>
-          <hr />
-        
- <hr />          <CustomerView/>
-       
-      
-    </div> */}
     <Router>
         <Routes >
             <Route path="/" element={<LinkPages/>}>
@@ -43,8 +27,6 @@ function App() {
             </Route>
         </Routes>
     </Router>
-
-
     </Provider>
 
   );
